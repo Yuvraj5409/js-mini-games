@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #90AB8B;
+    text-align: center;
+}
+
+h1{
+    background-color: #3B4953;
+    color: #90AB8B;
+    height: 8vmin;
+    text-align: center;
+    line-height: 8vmin;
+}
+
+.option{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option:hover{
+    cursor: pointer;
+    background-color: #3B4953;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    font-size: 2rem;
+    background-color: #3B4953;
+    color: #90AB8B;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+#new-game{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    background-color: #3B4953;
+    color: #90AB8B;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+#new-game:hover{
+    transform: scale(1.05);
+}
