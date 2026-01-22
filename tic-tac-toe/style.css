@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3B4953;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size:3rem;
+    color: #EBF4DD;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    color: #5A7863;
+    font-size: 8vmin;
+    background-color: #EBF4DD;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+#rst-btn{
+    background-color: red;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    font-size: 0.75rem;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#new-game{
+    background-color: white;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    color:#3B4953;
+    font-weight: bolder;
+}
+
+#msg{
+    font-size: 15vmin;
+    color: #EBF4DD;
+}
+
+.msg-container{
+    height: 90vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.xColor{
+    color: #3B4953;
+}
+
+.oColor{
+    color: green;
+}
+
+
+
